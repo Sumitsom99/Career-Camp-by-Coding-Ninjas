@@ -54,11 +54,9 @@ public class Main {
 	    int allowance;
 	    if(grade == 'A'){
 	        allowance = 1700;
-	    }
-	    else if (grade == 'B'){
+	    }else if (grade == 'B'){
 	        allowance = 1500;
-	    }
-	    else {
+	    }else {
 	        allowance = 1300;
 	    }
 	    double pf = 0.11 * basic;
