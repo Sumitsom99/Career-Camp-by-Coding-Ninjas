@@ -44,8 +44,7 @@ On substituting these values to the formula of totalSalary, we get Rs. 8761.53 a
 CODE:-
 
 import java.util.Scanner;
-public class Main
-{
+public class Main {
 	public static void main(String[] args) {
 	    Scanner s = new Scanner(System.in);
 	    int basic = s.nextInt();
