@@ -14,9 +14,7 @@ Sample Input 2 :
 Sample Output 2 :
 false
 
-
 CODE:-
-
 
 import java.util.Scanner;
 public class Main {
