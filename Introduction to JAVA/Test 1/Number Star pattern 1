@@ -1,0 +1,39 @@
+Print the following pattern for given number of rows.
+
+Input format :
+Integer N (Total number of rows)
+
+Output Format :
+Pattern in N lines
+
+Sample Input :
+   5
+   
+Sample Output :
+ 5432*
+ 543*1
+ 54*21
+ 5*321
+ *4321
+ 
+ 
+ CODE:-
+ 
+ 
+import java.util.Scanner;
+public class runner {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int lines=s.nextInt();
+        int i,j;  
+        for(i=1;i<=lines;i++){// this loop is used to print the lines  
+            for(j=lines;j>=1;j--){// this loop is used to print numbers in a line  
+                if(j!=i)  
+                    System.out.print(j);  
+                else  
+                    System.out.print("*");  
+            }   
+            System.out.println("");  
+        }  
+    }  
+}
