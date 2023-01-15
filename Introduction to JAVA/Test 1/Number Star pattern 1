@@ -16,9 +16,7 @@ Sample Output :
  5*321
  *4321
  
- 
- CODE:-
- 
+CODE:-
  
 import java.util.Scanner;
 public class runner {
